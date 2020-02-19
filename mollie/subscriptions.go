@@ -52,6 +52,7 @@ type Subscription struct {
 	Metadata        map[string]interface{} `json:"metadata,omitempty"`
 	ApplicationFee  ApplicationFee         `json:"applicationFee,omitempty"`
 	Links           SubscriptionLinks      `json:"_links,omitempty"`
+	MandateID       string                 `json:"mandateId,omitempty"`
 }
 
 // SubscriptionList describes the response for subscription list endpoints
